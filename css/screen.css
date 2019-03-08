@@ -126,14 +126,14 @@ a {
   transition: all .1s ease-in-out;
 }
 
-a:hover,
-a:focus {
-  color: Crimson;
-}
-
 a:visited,
 a:active {
   color: BlueViolet;
+}
+
+a:hover,
+a:focus {
+  color: Crimson;
 }
 
 /*
@@ -156,7 +156,7 @@ a:active {
   }
 
   h1 {
-    font-size: 56px;
+    font-size: 58px;
     line-height: 64px;
   }
 }
