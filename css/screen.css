@@ -8,6 +8,7 @@ html {
   line-height: 1.5;
   font-family: "Helvetica Neueu", Helvetica, arial, sans-serif;
   background: Teal;
+  padding: 24px 24px 0;
 }
 
 /*
@@ -16,6 +17,24 @@ html {
  *
  * Customize the background color to match your design.
  */
-::-moz-selection {}
+::-moz-selection {
+  background: #e85e00;
+  color: white;
+  text-shadow: none;
+}
 
-::selection {}
+::selection {
+  background: #e85e00;
+  color: white;
+  text-shadow: none;
+}
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
